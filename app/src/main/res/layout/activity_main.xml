@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#9400D3"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:text="NDK Demo" />
+    <TextView
+        android:id="@+id/tv_add"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="23+24=?"/>
+    <TextView
+        android:id="@+id/tv_sub"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="24-12=?"/>
+    <TextView
+        android:id="@+id/btn_calc"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        android:text="Invoid mysolib.so to Calculate"/>
+
+
+    <TextView
+        android:id="@+id/tv_get_string"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="get string in C++ from mysolib.so"/>
+
+    <TextView
+        android:id="@+id/btn_get_string"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        android:text="Invoid mysolib.so to get string "/>
+</LinearLayout>
