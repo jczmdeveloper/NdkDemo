@@ -3,7 +3,7 @@ a jni and ndk demo application for ndk starter.
 
 效果图：
 
-![image](https://github.com/jczmdeveloper/NdkDemo/blob/master/screenshots/01.gif)     
+![image](https://github.com/jczmdeveloper/NdkDemo/blob/master/screenshots/01.png)     
 
 
 Demo示例：
@@ -13,7 +13,9 @@ Demo示例：
 /**
  * Created by caizhiming on 2016/2/5.
  */
+
 public class Calculator {
+
 
     static {
         System.loadLibrary("mysolib");
